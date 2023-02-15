@@ -3,7 +3,6 @@ import { useRef, useState } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
-  const [pause, setPause] = useState(false)
   const timerRef = useRef();
 
   const msToHMSM = (ms) => {
