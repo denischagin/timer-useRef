@@ -50,23 +50,22 @@ function App() {
 			justifyContent='center'
 			alignItems='center'
 		>
-			<Typography variant='h4'>Ты опоздал на:</Typography>	
+			<Typography variant='h4'>Ты опоздал на:</Typography>
 			<Timer ms={count} />
 			<Grid
 				container
 				direction='row'
 				justifyContent='center'
 				alignItems='center'
-				spacing={2}
 			>
 				<Grid item>
 					<IconButton onClick={startTimer} className={classes.start}>
-						<PlayCircleFilledIcon sx={{ fontSize: "80px" }}/>
+						<PlayCircleFilledIcon sx={{ fontSize: "80px" }} />
 					</IconButton>
 				</Grid>
 				<Grid item>
 					<IconButton onClick={pauseTimer} className={classes.pause}>
-						<PauseCircleIcon sx={{ fontSize: "80px" }}/>
+						<PauseCircleIcon sx={{ fontSize: "80px" }} />
 					</IconButton>
 				</Grid>
 				<Grid item>
