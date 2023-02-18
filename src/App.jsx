@@ -50,7 +50,7 @@ function App() {
 			justifyContent='center'
 			alignItems='center'
 		>
-			<Typography variant='h5'>Ты опоздал на:</Typography>	
+			<Typography variant='h4'>Ты опоздал на:</Typography>	
 			<Timer ms={count} />
 			<Grid
 				container

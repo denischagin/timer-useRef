@@ -18,7 +18,7 @@ const Timer = ({ ms }) => {
     }
 
     return (
-        <Typography variant='h4' align='center'>{msToHMSM(ms)}</Typography>
+        <Typography variant='h2' align='center'>{msToHMSM(ms)}</Typography>
     )
 }
 
